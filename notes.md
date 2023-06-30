@@ -48,11 +48,10 @@ nextflow pull nf-core/rnaseq -revision 3.12.0
 
 This got stuck too. Not sure why. 
 
-Eventually
+Eventually tried `nextflow run nf-core/rnaseq -r 3.12.0 -profile test --outdir test-out`
 
 <details>
-
-<summary> `nextflow run nf-core/rnaseq -r 3.12.0 -profile test --outdir test-out` </summary>
+  <summary> nextflow didn't work </summary>
   
 ```
 
